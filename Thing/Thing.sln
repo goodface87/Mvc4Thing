@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thing.Web", "Thing\Thing.Web.csproj", "{5B00DEF6-1F97-4360-B6FD-CB9A88A69725}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thing.Tests", "Thing.Tests\Thing.Tests.csproj", "{4325BB2F-F43D-43A3-A891-8BD2134832EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thing.Data", "Thing.Data\Thing.Data.csproj", "{1AEFD83D-B12B-448E-83E3-725E1F9990B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thing.Services", "Thing.Services\Thing.Services.csproj", "{53317400-4296-45A8-ACE0-C4AF9922F282}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thing.DomainClasses", "Thing.DomainClasses\Thing.DomainClasses.csproj", "{D1A22EDD-F419-42E8-89ED-8CC326A18FCE}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://goodface87.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Thing.Tests\\Thing.Tests.csproj
+		SccProjectName1 = Thing.Tests
+		SccLocalPath1 = Thing.Tests
+		SccProjectUniqueName2 = Thing.Data\\Thing.Data.csproj
+		SccProjectName2 = Thing.Data
+		SccLocalPath2 = Thing.Data
+		SccProjectUniqueName3 = Thing.Services\\Thing.Services.csproj
+		SccProjectName3 = Thing.Services
+		SccLocalPath3 = Thing.Services
+		SccProjectUniqueName4 = Thing.DomainClasses\\Thing.DomainClasses.csproj
+		SccProjectName4 = Thing.DomainClasses
+		SccLocalPath4 = Thing.DomainClasses
+		SccProjectUniqueName5 = Thing\\Thing.Web.csproj
+		SccProjectName5 = Thing
+		SccLocalPath5 = Thing
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B00DEF6-1F97-4360-B6FD-CB9A88A69725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B00DEF6-1F97-4360-B6FD-CB9A88A69725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B00DEF6-1F97-4360-B6FD-CB9A88A69725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B00DEF6-1F97-4360-B6FD-CB9A88A69725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4325BB2F-F43D-43A3-A891-8BD2134832EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4325BB2F-F43D-43A3-A891-8BD2134832EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4325BB2F-F43D-43A3-A891-8BD2134832EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4325BB2F-F43D-43A3-A891-8BD2134832EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AEFD83D-B12B-448E-83E3-725E1F9990B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AEFD83D-B12B-448E-83E3-725E1F9990B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AEFD83D-B12B-448E-83E3-725E1F9990B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AEFD83D-B12B-448E-83E3-725E1F9990B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53317400-4296-45A8-ACE0-C4AF9922F282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53317400-4296-45A8-ACE0-C4AF9922F282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53317400-4296-45A8-ACE0-C4AF9922F282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53317400-4296-45A8-ACE0-C4AF9922F282}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1A22EDD-F419-42E8-89ED-8CC326A18FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1A22EDD-F419-42E8-89ED-8CC326A18FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1A22EDD-F419-42E8-89ED-8CC326A18FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1A22EDD-F419-42E8-89ED-8CC326A18FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

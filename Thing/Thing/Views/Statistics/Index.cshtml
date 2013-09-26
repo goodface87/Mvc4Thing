@@ -1,0 +1,127 @@
+﻿@model IEnumerable<Thing.Models.Statistics.GrandparentManager>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateOfBirth)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TotalSomething)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PercentageOfSomething)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TotalDigitalSomething)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TotalUnitsWorked)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TotalDigitalUnitsWorked)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model)
+{
+  <tr class="grandparent-row">
+    <td>
+      @Html.DisplayFor(modelItem => item.FirstName)
+    </td>
+    <td>
+      @Html.DisplayFor(modelItem => item.LastName)
+    </td>
+    <td>
+      @Html.DisplayFor(modelItem => item.DateOfBirth)
+    </td>
+    <td>
+      @Html.DisplayFor(modelItem => item.TotalSomething)
+    </td>
+    <td>
+      @Html.DisplayFor(modelItem => item.PercentageOfSomething)
+    </td>
+    <td>
+      @Html.DisplayFor(modelItem => item.TotalDigitalSomething)
+    </td>
+    <td>
+      @Html.DisplayFor(modelItem => item.TotalUnitsWorked)
+    </td>
+    <td>
+      @Html.DisplayFor(modelItem => item.TotalDigitalUnitsWorked)
+    </td>
+  </tr>
+  foreach (var manager in item.Managers)
+  {
+    <tr class="manager-row">
+      <td>
+        @Html.DisplayFor(modelItem => manager.FirstName)
+      </td>
+      <td>
+        @Html.DisplayFor(modelItem => manager.LastName)
+      </td>
+      <td>
+        @Html.DisplayFor(modelItem => manager.DateOfBirth)
+      </td>
+      <td>
+        @Html.DisplayFor(modelItem => manager.TotalSomething)
+      </td>
+      <td>
+        @Html.DisplayFor(modelItem => manager.PercentageOfSomething)
+      </td>
+      <td>
+        @Html.DisplayFor(modelItem => manager.TotalDigitalSomething)
+      </td>
+      <td>
+        @Html.DisplayFor(modelItem => manager.TotalUnitsWorked)
+      </td>
+      <td>
+        @Html.DisplayFor(modelItem => manager.TotalDigitalUnitsWorked)
+      </td>
+    </tr>
+    foreach (var emp in manager.Employees)
+    {
+      <tr class="employee-row">
+        <td>
+          @Html.DisplayFor(modelItem => emp.FirstName)
+        </td>
+        <td>
+          @Html.DisplayFor(modelItem => emp.LastName)
+        </td>
+        <td>
+          @Html.DisplayFor(modelItem => emp.DateOfBirth)
+        </td>
+        <td>
+          @Html.DisplayFor(modelItem => emp.TotalSomething)
+        </td>
+        <td>
+          @Html.DisplayFor(modelItem => emp.PercentageOfSomething)
+        </td>
+        <td>
+          @Html.DisplayFor(modelItem => emp.TotalDigitalSomething)
+        </td>
+        <td>
+          @Html.DisplayFor(modelItem => emp.TotalUnitsWorked)
+        </td>
+        <td>
+          @Html.DisplayFor(modelItem => emp.TotalDigitalUnitsWorked)
+        </td>
+      </tr>
+    }
+  }
+}
+
+</table>
